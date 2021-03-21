@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["dom", "dom.iterable"],
+		"module": "ESNext",
+		"esModuleInterop": true,
+		"jsx": "preserve",
+		"moduleResolution": "node",
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*.*"]
+}
