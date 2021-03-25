@@ -1,12 +1,13 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
+        "target": "ESNext",
+        "module": "ESNext",
+        "moduleResolution": "Node",
 		"lib": ["dom", "dom.iterable"],
-		"module": "ESNext",
-		"esModuleInterop": true,
 		"jsx": "preserve",
-		"moduleResolution": "node",
-		"skipLibCheck": true
-	},
+        
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
 	"include": ["src/**/*.*"]
 }
